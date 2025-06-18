@@ -8,7 +8,7 @@
     "build": "next build",
     "build:socket": "next build && cp server.mjs .next/",
     "start": "next start",
-    "start:socket": "NODE_ENV=production node .next/server.mjs",
+    "start:socket": "NODE_ENV=production node server.mjs",
     "lint": "next lint"
   },
   "dependencies": {
