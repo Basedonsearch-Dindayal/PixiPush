@@ -15,7 +15,7 @@ app.prepare().then(() => {
 
   const io = new Server(server, {
     cors: {
-      origin: dev ? "*" : "https://your-production-domain.com", // safer in prod
+      origin: dev ? "*" : "https://pixipush-d9nc.onrender.com/", // safer in prod
       methods: ["GET", "POST"]
     }
   });
